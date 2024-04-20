@@ -12,7 +12,7 @@ To view the Database that we use:
 
 
 ## Contributors:
-- @Icx21
+- @Icx21 - Data Extraction, Data Visualisation
 - @yanyox
 - @zk0008
 
