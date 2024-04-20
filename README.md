@@ -13,8 +13,8 @@ To view the Database that we use:
 
 ## Contributors:
 - @Icx21 - Data Extraction, Data Visualisation
-- @yanyox
-- @zk0008
+- @yanyox - Machine  Learning, Slides, Script
+- @zk0008 - Analysis, Slides, Script
 
 ## Problem Statement:
 Given a dataset comprising multiple factors, we aim to determine a fair market value for a used car and predict its resale price. By leveraging multiple variables and typical data associated with used cars, we seek to develop a reliable model that accurately estimates the value of a vehicle based on these factors.
