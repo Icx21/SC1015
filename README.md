@@ -33,9 +33,23 @@ The dataset, sourced from Kaggle and focused on the Indian automotive market, co
 3. Support Vector Regression
    
 ## Conclusion: 
+Gradient Boosting and Random Forest have significantly lower MSE values compared to Support Vector Regression. This indicates that both Gradient Boosting and Random Forest models perform much better than the Support Vector Regression model in terms of predicting prices on the testing dataset.
+
+Gradient Boosting has a slightly higher MSE than Random Forest, but the difference is not substantial. Both models seem to perform similarly, but Random Forest has a slightly better performance based on the MSE metric.
+
+The SVR model has a very high MSE compared to Gradient Boosting and Random Forest. This suggests that the SVR model might not be suitable for this particular dataset.
+
+In summary, based on the MSE metric, Gradient Boosting and Random Forest models outperform the SVR model in predicting prices on the testing dataset, with Random Forest showing slightly better performance than Gradient Boosting.
 
 ## What did we learn from this project? 
 
+- Learned that estimation of car prices are relatively due to different factors based on our analysis
+- Learned new regression techniques
+- Machine Learning helps to automate processes (e.g Physical evaluation of a used car can be done through machine learning)
+- Our project could be a way for users to not get overcharged for a used car (E.g implmenting more training for the model, feeding more data would make the model predict prices more accurately)
+
 ## Reference: 
 - <https://www.kaggle.com/datasets/colearninglounge/used-cars-price-prediction>
-- 
+- <https://builtin.com/data-science/random-forest-python#:~:text=What%20Is%20Random%20Forest%20Regression,trees%20while%20building%20the%20trees.>
+- <https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502>
+- <https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-for-machine-learning/#:~:text=Support%20Vector%20Regression%20(SVR)%20is,while%20minimizing%20the%20prediction%20error.>
